@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.78.0"
+uvicorn = "==0.18.2"
+python-multipart = "*"
+pandas = "==1.4.3"
+openpyxl = "*"
+plotly = "==5.9.0"
+aiofiles = "==0.8.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
